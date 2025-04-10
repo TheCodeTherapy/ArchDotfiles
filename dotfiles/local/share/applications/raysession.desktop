@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=RaySession (XCB)
+Comment=Start RaySession with XCB Qt platform
+Exec=env QT_QPA_PLATFORM=xcb raysession %U
+Icon=raysession
+Terminal=false
+Categories=AudioVideo;Audio;Utility;
+StartupNotify=true
