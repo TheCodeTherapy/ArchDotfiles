@@ -115,7 +115,7 @@ install_yay() {
 install_yay_packages() {
   local packages=(
     visual-studio-code-bin brave-bin google-chrome qt6ct-kde
-    hid-fanatecff-dkms oversteer
+    hid-fanatecff-dkms oversteer raysession
   )
 
   print_info "Installing yay packages ..."
