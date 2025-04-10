@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Slack (Flatpak)
+Comment=Slack desktop client via Flatpak
+Exec=flatpak run com.slack.Slack
+Icon=slack
+Terminal=false
+Type=Application
+Categories=Network;Chat;InstantMessaging;
+StartupNotify=true

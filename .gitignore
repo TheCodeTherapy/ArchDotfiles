@@ -1,0 +1,10 @@
+.env
+obs-studio/
+obs-assets/
+temps/
+backup/
+build/
+forecast.json
+weather.json
+weather*.png
+ch-zrh-wg-003.conf

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Steam (Flatpak)
+Comment=Launch Steam via Flatpak
+Exec=flatpak run com.valvesoftware.Steam
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Game;Network;
+StartupNotify=true

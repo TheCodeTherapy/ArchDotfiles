@@ -1,0 +1,44 @@
+#!/bin/sh
+
+#=============================================================================
+# Browser Launcher Script
+# Allows selection of browser configurations to launch with specific arguments.
+#=============================================================================
+
+OPTIONS="$(cat <<EOF
+Brave;brave
+Brave (WebGPU);BRAVE_DISABLE_KEYCHAIN=1 brave --enable-unsafe-webgpu --enable-features=Vulkan
+Brave (Private);BRAVE_DISABLE_KEYCHAIN=1 brave --incognito
+Google Chrome (WebGPU);google-chrome --enable-unsafe-webgpu --enable-features=Vulkan
+Google Chrome (No Framerate Cap);google-chrome --disable-frame-rate-limit --disable-gpu-vsync --max-gum-fps=\"9999\"
+Firefox;firefox
+EOF
+)"
+
+
+THEME="${HOME}/ArchDotfiles/dotfiles/wofi/style.css"
+CONF="${HOME}/ArchDotfiles/dotfiles/wofi/config"
+
+if [[ -z "$THEME" || ! -f "$THEME" ]]; then
+  echo "Error: Theme file not found at $THEME"
+  exit 1
+fi
+
+echo $THEME
+echo $CONF
+
+# Display the browser options in wofi
+chosen=$(echo "$OPTIONS" | cut -d ';' -f1 | wofi --conf="$CONF" --style="$THEME" -dmenu)
+[ -z "$chosen" ] && exit
+
+# Match exact line by name, extract command
+command=$(echo "$OPTIONS" | awk -F ';' -v choice="$chosen" '$1 == choice { print $2; exit }')
+
+if [ -n "$command" ]; then
+    echo "$command"
+    eval "$command" &
+
+    notify-send -a "Browser Launcher" "$chosen launched." --expire-time=3000 &
+else
+    notify-send -a "Browser Launcher" "Failed to launch $chosen." --expire-time=3000 &
+fi

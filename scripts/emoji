@@ -1,0 +1,30 @@
+#!/bin/sh
+
+#=============================================================================
+# @TheCodeTherapy - https://mgz.me
+# Emoji Picker - Wayland Version using wofi
+#=============================================================================
+
+EMOJIS="${HOME}/ArchDotfiles/dotfiles/emoji/emoji.txt"
+THEME="${HOME}/ArchDotfiles/dotfiles/wofi/style.css"
+CONF="${HOME}/ArchDotfiles/dotfiles/wofi/config"
+
+# Validate required files
+[ ! -f "$EMOJIS" ] && notify-send -a "Emoji Picker" "Missing emoji file: $EMOJIS" --expire-time=3000 && exit 1
+[ ! -f "$THEME" ] && notify-send -a "Emoji Picker" "Missing wofi theme: $THEME" --expire-time=3000 && exit 1
+[ ! -f "$CONF" ] && notify-send -a "Emoji Picker" "Missing wofi config: $CONF" --expire-time=3000 && exit 1
+
+# Show the emoji picker using wofi
+chosen=$(cut -d ';' -f1 "$EMOJIS" | wofi --conf="$CONF" --style="$THEME" --dmenu --prompt "Pick emoji")
+
+# Exit early if user cancelled
+[ -z "$chosen" ] && exit 0
+
+# Extract emoji symbol (strip label if present)
+emoji=$(echo "$chosen" | sed 's/ .*//')
+
+# Copy to clipboard
+echo -n "$emoji" | wl-copy
+
+# Notify the user
+notify-send -a "Emoji Picker" "'$emoji' copied to clipboard." --expire-time=3000
