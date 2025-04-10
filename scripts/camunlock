@@ -1,0 +1,10 @@
+#!/bin/bash
+# Filename: clean_cam_lock.sh
+
+DEVICE="/dev/video0"
+
+PIDS=$(sudo lsof -t $DEVICE)
+if [ ! -z "$PIDS" ]; then
+  echo "Killing processes using $DEVICE: $PIDS"
+  # sudo kill -9 $PIDS
+fi
