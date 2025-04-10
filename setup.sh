@@ -160,7 +160,7 @@ install_base_packages() {
     sdl sdl2 fluidsynth timidity++ mesa glu glew mpg123 noto-fonts-emoji btop
     libjpeg-turbo libgme libsndfile libvpx flatpak cloudflared github-cli
     docker docker-compose nvidia-container-toolkit ffmpeg yt-dlp firefox
-    discord v4l2loopback-dkms obs-studio ardour
+    discord v4l2loopback-dkms obs-studio ardour swww
   )
 
   for package in "${packages[@]}"; do
