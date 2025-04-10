@@ -267,8 +267,7 @@ link_dotfiles() {
 
 install_recipes() {
   local recipe_dir
-  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-  recipe_dir="${SCRIPT_DIR}/z_setup_scripts"
+  recipe_dir="${DOTFILES}/z_setup_scripts"
 
   local recipes=(
     "$recipe_dir/install_oh-my-zsh.sh"
