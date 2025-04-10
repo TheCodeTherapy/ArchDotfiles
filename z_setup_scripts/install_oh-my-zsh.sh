@@ -12,6 +12,8 @@ install_ohmyzsh() {
 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+    chsh -s /usr/bin/zsh
+
     print_success "OhMyZSH installed successfully."
   fi
 }
