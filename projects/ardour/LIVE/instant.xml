@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
   <LastUsedSnapshot name="LIVE"/>
-  <Main x="3854" y="44" w="1257" h="682" current-tab="mixer"/>
+  <Main x="3854" y="744" w="2537" h="682" current-tab="mixer"/>
   <Editor id="53" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="2048" grid-type="GridTypeBeat" snap-mode="SnapOff" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapOff" pre-internal-grid-type="GridTypeBeat" pre-internal-snap-mode="SnapOff" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" draw-length="GridTypeNone" draw-velocity="-1" draw-channel="-1" playhead="0" left-frame="0" y-origin="0" maximised="0" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="0" editor-list-page="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
     <Buttons>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="LIVE" sample-rate="48000" session-range-is-free="1" id-counter="635" rg-counter="0" name-counter="1" event-counter="0" vca-counter="1">
+<Session version="7003" name="LIVE" sample-rate="48000" session-range-is-free="1" id-counter="905" rg-counter="0" name-counter="1" event-counter="0" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.12" modified-with="Ardour 8.12"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -87,12 +87,8 @@
       <Controllable name="solo-iso" id="89" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="91" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="103" direction="Input" default-type="audio">
-        <Port name="Master/audio_in 1" type="audio" direction="Input">
-          <Connection other="Bus 1/audio_out 1"/>
-        </Port>
-        <Port name="Master/audio_in 2" type="audio" direction="Input">
-          <Connection other="Bus 1/audio_out 2"/>
-        </Port>
+        <Port name="Master/audio_in 1" type="audio" direction="Input"/>
+        <Port name="Master/audio_in 2" type="audio" direction="Input"/>
       </IO>
       <IO name="Master" id="104" direction="Output" default-type="audio">
         <Port name="Master/audio_out 1" type="audio" direction="Output">
@@ -161,10 +157,10 @@
       </IO>
       <IO name="Audio 1" id="220" direction="Output" default-type="audio">
         <Port name="Audio 1/audio_out 1" type="audio" direction="Output">
-          <Connection other="Bus 1/audio_in 1"/>
+          <Connection other="STREAM/audio_in 1"/>
         </Port>
         <Port name="Audio 1/audio_out 2" type="audio" direction="Output">
-          <Connection other="Bus 1/audio_in 2"/>
+          <Connection other="STREAM/audio_in 2"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
