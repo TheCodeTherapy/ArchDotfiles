@@ -338,7 +338,7 @@ update_plocate_db() {
 
 update_arch
 install_git
-# install_yay
+install_yay
 
 install_base_packages
 install_yay_packages
