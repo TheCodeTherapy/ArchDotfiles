@@ -115,7 +115,7 @@ install_yay() {
 install_yay_packages() {
   local packages=(
     visual-studio-code-bin brave-bin google-chrome qt6ct-kde
-    hid-fanatecff-dkms oversteer raysession google-cloud-cli
+    hid-fanatecff-dkms oversteer raysession
   )
 
   print_info "Installing yay packages ..."
@@ -279,6 +279,7 @@ install_recipes() {
     "$recipe_dir/install_emscripten.sh"
     "$recipe_dir/install_nginx.sh"
     "$recipe_dir/install_tmuxpm.sh"
+    "$recipe_dir/install_gcloudcli.sh"
   )
 
   for recipe in "${recipes[@]}"; do
