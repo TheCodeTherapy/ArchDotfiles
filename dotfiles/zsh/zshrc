@@ -17,6 +17,8 @@ export EMSCRIPTENPATH="$EMSCRIPTENPATH"
 export PATH=$PATH:$EMSCRIPTENPATH
 export PATH=$PATH:$EMSCRIPTENPATH/upstream/emscripten
 
+export XDG_DATA_DIRS=/usr/share:/usr/local/share:$XDG_DATA_DIRS
+
 # Tmux stuff
 start_tmux() {
   if [[ -n "$TMUX" && -z "$1" ]]; then

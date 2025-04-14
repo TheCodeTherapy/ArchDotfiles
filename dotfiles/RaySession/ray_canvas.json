@@ -1,0 +1,1917 @@
+{
+  "group_positions": [
+    {
+      "port_types_view": 31,
+      "group_name": "Scarlett 18i20 4th Gen Multichannel",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        200,
+        0
+      ],
+      "in_xy": [
+        829,
+        712
+      ],
+      "out_xy": [
+        0,
+        500
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "ZV-1 Analog Stereo",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        400,
+        26
+      ],
+      "out_xy": [
+        -7,
+        -174
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "USB Audio Line In",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        400,
+        52
+      ],
+      "out_xy": [
+        2,
+        -120
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "USB Audio Microphone",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        400,
+        78
+      ],
+      "out_xy": [
+        0,
+        -66
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "USB Audio Front Microphone",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        400,
+        104
+      ],
+      "out_xy": [
+        0,
+        -11
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "USB Audio Front Headphones",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        486,
+        35
+      ],
+      "out_xy": [
+        0,
+        44
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "USB Audio Speakers",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        400,
+        384
+      ],
+      "out_xy": [
+        0,
+        306
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "USB Audio S/PDIF Out",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        486,
+        89
+      ],
+      "out_xy": [
+        0,
+        98
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "AD102 High Definition Audio Controller Digital Stereo (HDMI)",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        486,
+        143
+      ],
+      "out_xy": [
+        -26,
+        152
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Midi-Bridge",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        486,
+        197
+      ],
+      "out_xy": [
+        0,
+        206
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "BLE MIDI 1",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        486,
+        251
+      ],
+      "out_xy": [
+        0,
+        260
+      ],
+      "flags": 68,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Midi Through",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        400,
+        286
+      ],
+      "out_xy": [
+        0,
+        286
+      ],
+      "flags": 4,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Scarlett 18i20 4th Gen",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        165,
+        -5
+      ],
+      "in_xy": [
+        400,
+        312
+      ],
+      "out_xy": [
+        0,
+        312
+      ],
+      "flags": 4,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "OBS",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        811,
+        561
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Dummy video device (0x0000) (V4L2)",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        281,
+        -171
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 4,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "kwin_wayland",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        281,
+        1483
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "plasmashell",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        395,
+        1011
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "ardour",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        281,
+        -171
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "KWin",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        284,
+        1483
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Ardour",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        304,
+        659
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "DiscordOutput",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        509,
+        1116
+      ],
+      "in_xy": [
+        400,
+        1828
+      ],
+      "out_xy": [
+        0,
+        1828
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        385,
+        1072
+      ],
+      "in_xy": [
+        400,
+        1734
+      ],
+      "out_xy": [
+        0,
+        1734
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-293",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        395,
+        1139
+      ],
+      "in_xy": [
+        400,
+        1734
+      ],
+      "out_xy": [
+        0,
+        1734
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "WEBRTC VoiceEngine",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        763,
+        957
+      ],
+      "in_xy": [
+        400,
+        1734
+      ],
+      "out_xy": [
+        0,
+        1734
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "DiscordOutput-294",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        275,
+        1644
+      ],
+      "in_xy": [
+        400,
+        1732
+      ],
+      "out_xy": [
+        0,
+        1732
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "FXSink",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        385,
+        977
+      ],
+      "in_xy": [
+        400,
+        1799
+      ],
+      "out_xy": [
+        0,
+        1799
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "VirtualMic",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        588,
+        925
+      ],
+      "in_xy": [
+        400,
+        1799
+      ],
+      "out_xy": [
+        0,
+        1799
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-326",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        275,
+        1935
+      ],
+      "in_xy": [
+        400,
+        1945
+      ],
+      "out_xy": [
+        0,
+        1945
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-328",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        395,
+        575
+      ],
+      "in_xy": [
+        400,
+        1816
+      ],
+      "out_xy": [
+        0,
+        1816
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1244
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1211
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Firefox",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1255
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-207",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-329",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-327",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1255
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-303",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        395,
+        1139
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-300",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1261
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-310",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1494
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "VLC media player (LibVLC 3.0.21)",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1217
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "System Settings",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1217
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-312",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "DiscordOutput-301",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        204,
+        1072
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-330",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1261
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-336",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1494
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-331",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1261
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Portal",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1261
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-337",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "DiscordOutput-331",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1261
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "FXSink-327",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1503
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "VirtualMic-344",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1398
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "VirtualMic-345",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1442
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "DiscordOutput-334",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1598
+      ],
+      "in_xy": [
+        400,
+        1651
+      ],
+      "out_xy": [
+        0,
+        1651
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "FXSink-361",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1764
+      ],
+      "in_xy": [
+        400,
+        1718
+      ],
+      "out_xy": [
+        0,
+        1718
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "VirtualMic-367",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1659
+      ],
+      "in_xy": [
+        400,
+        1718
+      ],
+      "out_xy": [
+        0,
+        1718
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "VirtualMic-368",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1703
+      ],
+      "in_xy": [
+        400,
+        1718
+      ],
+      "out_xy": [
+        0,
+        1718
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-386",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1859
+      ],
+      "in_xy": [
+        400,
+        1902
+      ],
+      "out_xy": [
+        0,
+        1902
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-380",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1892
+      ],
+      "in_xy": [
+        400,
+        1902
+      ],
+      "out_xy": [
+        0,
+        1902
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "kdenlive",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1892
+      ],
+      "in_xy": [
+        400,
+        1902
+      ],
+      "out_xy": [
+        0,
+        1902
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-394",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1942
+      ],
+      "in_xy": [
+        400,
+        1952
+      ],
+      "out_xy": [
+        0,
+        1952
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-355",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1942
+      ],
+      "in_xy": [
+        400,
+        1952
+      ],
+      "out_xy": [
+        0,
+        1952
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-377",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1903
+      ],
+      "in_xy": [
+        400,
+        1902
+      ],
+      "out_xy": [
+        0,
+        1902
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "xdg-desktop-portal-kde",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1909
+      ],
+      "in_xy": [
+        400,
+        1919
+      ],
+      "out_xy": [
+        0,
+        1919
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "obs",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1909
+      ],
+      "in_xy": [
+        400,
+        1919
+      ],
+      "out_xy": [
+        0,
+        1919
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-388",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1920
+      ],
+      "in_xy": [
+        400,
+        1875
+      ],
+      "out_xy": [
+        0,
+        1875
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-357",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1970
+      ],
+      "in_xy": [
+        400,
+        1980
+      ],
+      "out_xy": [
+        0,
+        1980
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-322",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1920
+      ],
+      "in_xy": [
+        400,
+        1875
+      ],
+      "out_xy": [
+        0,
+        1875
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "libcanberra",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-334",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Dolphin",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1217
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-341",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-342",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1507
+      ],
+      "in_xy": [
+        400,
+        1517
+      ],
+      "out_xy": [
+        0,
+        1517
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-326",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Discord",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1217
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "discord_capture",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1228
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-325",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        417,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-358",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        490,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-337",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        482,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-346",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-347",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-348",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-338",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        1457
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-332",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-335",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-331",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        1920
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Chromium-332",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "KIO Client",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        1467
+      ],
+      "out_xy": [
+        0,
+        1467
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-343",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        1507
+      ],
+      "in_xy": [
+        400,
+        1517
+      ],
+      "out_xy": [
+        0,
+        1517
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave input",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        416,
+        1261
+      ],
+      "in_xy": [
+        400,
+        1567
+      ],
+      "out_xy": [
+        0,
+        1567
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-323",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        2030
+      ],
+      "out_xy": [
+        0,
+        2030
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-353",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        2020
+      ],
+      "in_xy": [
+        400,
+        2030
+      ],
+      "out_xy": [
+        0,
+        2030
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    },
+    {
+      "port_types_view": 31,
+      "group_name": "Brave-328",
+      "null_zone": "",
+      "in_zone": "",
+      "out_zone": "",
+      "null_xy": [
+        487,
+        -169
+      ],
+      "in_xy": [
+        400,
+        2030
+      ],
+      "out_xy": [
+        0,
+        2030
+      ],
+      "flags": 0,
+      "layout_mode": 0
+    }
+  ],
+  "portgroups": [],
+  "version": "0.14.4"
+}

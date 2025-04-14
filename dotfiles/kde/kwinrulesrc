@@ -1,0 +1,12 @@
+[General]
+count=1
+rules=f54d840d-2bdb-43b0-bc29-104c2ae43f75
+
+[f54d840d-2bdb-43b0-bc29-104c2ae43f75]
+Description=Ghostty Window
+position=5600,270
+positionrule=3
+size=1600,900
+sizerule=3
+wmclass=com.mitchellh.ghostty
+wmclassmatch=1

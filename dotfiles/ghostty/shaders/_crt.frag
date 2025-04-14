@@ -277,4 +277,9 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     }
     fragColor += highPass * 0.12;
     fragColor = mix(oTex, fragColor, 0.5);
+
+    if (uv.x < 0.0 || uv.x > 1.0 || uv.y < 0.0 || uv.y > 1.0) {
+        fragColor.rgb = BG;
+    }
+
 }

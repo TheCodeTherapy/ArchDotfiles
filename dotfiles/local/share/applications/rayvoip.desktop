@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=raysession -s LIVE
+Icon=preferences-desktop-sound
+Name=Start VOIP Audio Session
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

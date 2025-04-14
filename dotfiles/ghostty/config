@@ -1,13 +1,13 @@
 theme = catppuccin-mocha
 background-opacity = 1
 
-font-family = "JetBrainsMono Nerd Font"
+font-family = "Hack Nerd Font"
 # font-family = "NotoMono Nerd Font"
 
 window-padding-x = 10
 window-padding-y = 0
 resize-overlay = never
-window-decoration = false
+window-decoration = true
 gtk-titlebar=false
 
 gtk-adwaita=false

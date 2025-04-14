@@ -1,0 +1,119 @@
+Fri Apr 11 02:15:08 2025: GUI connected at osc.udp://threadripper:13490/
+Fri Apr 11 02:15:08 2025: URL : osc.udp://10.0.0.10:16187/
+Fri Apr 11 02:15:08 2025:       osc.udp://threadripper:16187/
+Fri Apr 11 02:15:08 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 02:47:12 2025: GUI connected at osc.udp://threadripper:15414/
+Fri Apr 11 02:47:12 2025: URL : osc.udp://10.0.0.10:16187/
+Fri Apr 11 02:47:12 2025:       osc.udp://threadripper:16187/
+Fri Apr 11 02:47:12 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 02:57:32 2025: patch sends dirty
+Fri Apr 11 03:01:38 2025: ardour sends dirty
+Fri Apr 11 03:02:22 2025: ardour sends clean
+Fri Apr 11 03:03:04 2025: ardour sends dirty
+Fri Apr 11 03:17:44 2025: ardour sends clean
+Fri Apr 11 03:17:47 2025: patch sends clean
+Fri Apr 11 03:17:49 2025: patch sends clean
+Fri Apr 11 03:18:48 2025: patch sends clean
+Fri Apr 11 03:19:57 2025: patch sends clean
+Fri Apr 11 03:20:30 2025: patch sends clean
+Fri Apr 11 03:21:34 2025: patch sends dirty
+Fri Apr 11 03:23:19 2025: patch sends clean
+Fri Apr 11 03:23:29 2025: patch sends clean
+Fri Apr 11 03:23:43 2025: GUI connected at osc.udp://threadripper:17606/
+Fri Apr 11 03:23:43 2025: URL : osc.udp://10.0.0.10:16187/
+Fri Apr 11 03:23:43 2025:       osc.udp://threadripper:16187/
+Fri Apr 11 03:23:43 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 03:23:43 2025: patch sends clean
+Fri Apr 11 03:23:45 2025: patch sends dirty
+Fri Apr 11 03:24:15 2025: ardour sends dirty
+Fri Apr 11 03:24:35 2025: ardour sends clean
+Fri Apr 11 03:24:38 2025: patch sends clean
+Fri Apr 11 03:24:47 2025: patch sends dirty
+Fri Apr 11 03:24:59 2025: patch sends clean
+Fri Apr 11 03:25:40 2025: patch sends clean
+Fri Apr 11 12:12:19 2025: GUI connected at osc.udp://threadripper:19321/
+Fri Apr 11 12:12:19 2025: URL : osc.udp://10.0.0.10:16187/
+Fri Apr 11 12:12:19 2025:       osc.udp://threadripper:16187/
+Fri Apr 11 12:12:19 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 12:12:29 2025: patch sends dirty
+Fri Apr 11 14:27:56 2025: patch sends clean
+Fri Apr 11 14:27:58 2025: patch sends clean
+Fri Apr 11 14:28:08 2025: patch sends clean
+Fri Apr 11 14:37:27 2025: GUI connected at osc.udp://threadripper:18030/
+Fri Apr 11 14:37:27 2025: URL : osc.udp://10.0.0.10:16187/
+Fri Apr 11 14:37:27 2025:       osc.udp://threadripper:16187/
+Fri Apr 11 14:37:27 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 14:37:31 2025: patch sends dirty
+Fri Apr 11 14:37:56 2025: GUI connected at osc.udp://threadripper:18059/
+Fri Apr 11 14:37:56 2025: URL : osc.udp://10.0.0.10:16188/
+Fri Apr 11 14:37:56 2025:       osc.udp://threadripper:16188/
+Fri Apr 11 14:37:56 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 17:23:59 2025: ardour sends dirty
+Fri Apr 11 17:24:35 2025: patch sends clean
+Fri Apr 11 17:24:36 2025: ardour sends clean
+Fri Apr 11 18:59:39 2025: patch sends dirty
+Fri Apr 11 19:46:16 2025: patch sends clean
+Fri Apr 11 19:46:20 2025: patch sends clean
+Fri Apr 11 22:18:48 2025: GUI connected at osc.udp://threadripper:15710/
+Fri Apr 11 22:18:48 2025: URL : osc.udp://10.0.0.10:16187/
+Fri Apr 11 22:18:48 2025:       osc.udp://threadripper:16187/
+Fri Apr 11 22:18:48 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 22:18:50 2025: patch sends clean
+Fri Apr 11 22:18:51 2025: patch sends dirty
+Fri Apr 11 23:22:15 2025: patch sends clean
+Fri Apr 11 23:22:49 2025: GUI connected at osc.udp://threadripper:19551/
+Fri Apr 11 23:22:49 2025: URL : osc.udp://10.0.0.10:16187/
+Fri Apr 11 23:22:49 2025:       osc.udp://threadripper:16187/
+Fri Apr 11 23:22:49 2025: ROOT: /home/marcogomez/Ray Sessions
+Fri Apr 11 23:22:51 2025: patch sends clean
+Fri Apr 11 23:23:03 2025: patch sends dirty
+Fri Apr 11 23:40:55 2025: patch sends clean
+Sat Apr 12 00:26:34 2025: patch sends dirty
+Sat Apr 12 13:02:27 2025: GUI connected at osc.udp://threadripper:18729/
+Sat Apr 12 13:02:27 2025: URL : osc.udp://10.0.0.10:16187/
+Sat Apr 12 13:02:27 2025:       osc.udp://threadripper:16187/
+Sat Apr 12 13:02:27 2025: ROOT: /home/marcogomez/Ray Sessions
+Sat Apr 12 13:02:29 2025: patch sends dirty
+Sat Apr 12 18:58:26 2025: GUI connected at osc.udp://threadripper:10089/
+Sat Apr 12 18:58:26 2025: URL : osc.udp://10.0.0.10:16187/
+Sat Apr 12 18:58:26 2025:       osc.udp://threadripper:16187/
+Sat Apr 12 18:58:26 2025: ROOT: /home/marcogomez/Ray Sessions
+Sat Apr 12 18:58:27 2025: patch sends dirty
+Sat Apr 12 18:58:46 2025: patch sends clean
+Sat Apr 12 18:59:02 2025: patch sends dirty
+Sat Apr 12 23:34:41 2025: ardour sends dirty
+Sun Apr 13 02:39:24 2025: patch sends clean
+Sun Apr 13 02:39:24 2025: ardour sends clean
+Sun Apr 13 13:38:28 2025: GUI connected at osc.udp://threadripper:17291/
+Sun Apr 13 13:38:28 2025: URL : osc.udp://10.0.0.10:16187/
+Sun Apr 13 13:38:28 2025:       osc.udp://threadripper:16187/
+Sun Apr 13 13:38:28 2025: ROOT: /home/marcogomez/Ray Sessions
+Sun Apr 13 13:38:29 2025: patch sends dirty
+Sun Apr 13 13:39:30 2025: patch sends clean
+Sun Apr 13 13:39:32 2025: patch sends clean
+Sun Apr 13 13:39:38 2025: patch sends clean
+Sun Apr 13 13:40:18 2025: patch sends dirty
+Sun Apr 13 13:40:32 2025: patch sends clean
+Sun Apr 13 13:44:33 2025: patch sends dirty
+Sun Apr 13 21:12:53 2025: GUI connected at osc.udp://threadripper:14556/
+Sun Apr 13 21:12:53 2025: URL : osc.udp://10.0.0.10:16187/
+Sun Apr 13 21:12:53 2025:       osc.udp://threadripper:16187/
+Sun Apr 13 21:12:53 2025: ROOT: /home/marcogomez/Ray Sessions
+Sun Apr 13 21:12:53 2025: patch sends clean
+Sun Apr 13 21:13:24 2025: patch sends dirty
+Mon Apr 14 02:17:13 2025: patch sends clean
+Mon Apr 14 09:12:50 2025: GUI connected at osc.udp://threadripper:17753/
+Mon Apr 14 09:12:50 2025: URL : osc.udp://10.0.0.10:16187/
+Mon Apr 14 09:12:50 2025:       osc.udp://threadripper:16187/
+Mon Apr 14 09:12:50 2025: ROOT: /home/marcogomez/Ray Sessions
+Mon Apr 14 09:12:51 2025: patch sends dirty
+Mon Apr 14 15:31:32 2025: patch sends clean
+Mon Apr 14 15:39:27 2025: patch sends clean
+Mon Apr 14 15:39:42 2025: patch sends clean
+Mon Apr 14 15:39:53 2025: GUI connected at osc.udp://threadripper:10975/
+Mon Apr 14 15:39:53 2025: URL : osc.udp://10.0.0.10:16187/
+Mon Apr 14 15:39:53 2025:       osc.udp://threadripper:16187/
+Mon Apr 14 15:39:53 2025: ROOT: /home/marcogomez/Ray Sessions
+Mon Apr 14 15:39:53 2025: patch sends clean
+Mon Apr 14 15:40:33 2025: patch sends dirty
+Mon Apr 14 15:47:39 2025: patch sends clean

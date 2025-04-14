@@ -1,10 +1,15 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=RaySession (XCB)
-Comment=Start RaySession with XCB Qt platform
-Exec=env QT_QPA_PLATFORM=xcb raysession %U
-Icon=raysession
-Terminal=false
 Categories=AudioVideo;Audio;Utility;
+Comment=Start RaySession with XCB Qt platform
+Exec=env QT_QPA_PLATFORM=xcb raysession -s LIVE
+Icon=raysession
+Name=RaySession (XCB)
+NoDisplay=false
+Path=
 StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=

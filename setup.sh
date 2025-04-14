@@ -115,7 +115,7 @@ install_yay() {
 install_yay_packages() {
   local packages=(
     visual-studio-code-bin brave-bin google-chrome qt6ct-kde
-    hid-fanatecff-dkms oversteer raysession
+    hid-fanatecff-dkms oversteer raysession google-cloud-cli
   )
 
   print_info "Installing yay packages ..."
@@ -153,25 +153,26 @@ install_base_packages() {
     meson clang gcc nasm dkms curl wget ca-certificates gnupg most neovim
     lsb-release gawk zsh tmux most tree tar jq unzip ffmpeg bc fzf ripgrep
     zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions neofetch
-    ghostty alacritty xdg-desktop-portal-hyprland xdg-desktop-portal kvantum
-    kvantum-qt5 kvantum-theme-materia adw-gtk-theme qt5ct qt5-wayland fd gtk3
-    pkgconf qt6-wayland breeze breeze-icons openal ttf-hack waybar python
-    python-pip ipython libtool python-pynvim bzip2 zlib plocate wl-clipboard
-    sdl sdl2 fluidsynth timidity++ mesa glu glew mpg123 noto-fonts-emoji btop
-    libjpeg-turbo libgme libsndfile libvpx flatpak cloudflared github-cli
-    docker docker-compose nvidia-container-toolkit ffmpeg yt-dlp firefox
-    discord v4l2loopback-dkms obs-studio ardour swww
+    ghostty alacritty fd python python-pip ipython libtool python-pynvim bzip2
+    zip zlib plocate sdl sdl2 fluidsynth timidity++ mesa glu glew mpg123
+    noto-fonts-emoji btop libjpeg-turbo libgme libsndfile libvpx flatpak
+    cloudflared github-cli docker docker-compose nvidia-container-toolkit
+    noto-fonts noto-fonts-cjk ttf-dejavu imagemagick ffmpeg yt-dlp firefox
+    discord ardour prismlauncher dialog wl-clipboard wofi
   )
 
   for package in "${packages[@]}"; do
     install_with_pacman "$package"
   done
+
+  cd $DOTDIR/packages
+  sudo pacman -U --noconfirm v4l2loopback-dkms-0.13.2-1-any.pkg.tar.zst
 }
 # ============================================================================
 
-# Install Wine (Wayland + PipeWire) ==========================================
+# Install Wine ===============================================================
 install_wine() {
-  print_info "Installing Wine (Wayland + PipeWire)..."
+  print_info "Installing Wine ..."
 
   if ! grep -q "^\[multilib\]" /etc/pacman.conf; then
     handle_error "Multilib not enabled. Edit /etc/pacman.conf and uncomment [multilib]."
@@ -220,10 +221,7 @@ link_dotfiles() {
 
   mkdir -p "$target_config/Code/User"
   mkdir -p "$target_config/VSCodium/User"
-  mkdir -p "$target_config/hypr"
   mkdir -p "$target_config/kitty"
-  mkdir -p "$target_config/gtk-3.0"
-  mkdir -p "$target_config/gtk-4.0"
   
   declare -A files_to_link=(
     ["${DOTDOT}/bash/bashrc"]="$target_home/.bashrc"
@@ -235,18 +233,11 @@ link_dotfiles() {
     ["${DOTDOT}/tmux/tmux.conf"]="$target_home/.tmux.conf"
     ["${DOTDOT}/fonts"]="$target_home/.fonts"
     ["${DOTDOT}/vst3"]="$target_home/.vst3"
-    ["${DOTDOT}/hypr/hyprland.conf"]="$target_config/hypr/hyprland.conf"
     ["${DOTDOT}/kitty/kitty.conf"]="$target_config/kitty/kitty.conf"
     ["${DOTDOT}/vscode/settings.json"]="$target_config/Code/User/settings.json"
     ["${DOTDOT}/vscodium/settings.json"]="$target_config/VSCodium/User/settings.json"
     ["${DOTDOT}/pipewire"]="$target_config/pipewire"
     ["${DOTDOT}/wireplumber"]="$target_config/wireplumber"
-    ["${DOTDOT}/gtk-3.0/settings.ini"]="$target_config/gtk-3.0/settings.ini"
-    ["${DOTDOT}/gtk-4.0/settings.ini"]="$target_config/gtk-4.0/settings.ini"
-    ["${DOTDOT}/environment.d"]="$target_config/environment.d"
-    ["${DOTDOT}/qt5ct"]="$target_config/qt5ct"
-    ["${DOTDOT}/qt6ct"]="$target_config/qt6ct"
-    ["${DOTDOT}/waybar"]="$target_config/waybar"
     ["${DOTDOT}/nvim"]="$target_config/nvim"
     ["${DOTDOT}/alacritty"]="$target_config/alacritty"
     ["${DOTDOT}/ghostty"]="$target_config/ghostty"
@@ -256,6 +247,13 @@ link_dotfiles() {
     ["${DOTDOT}/mame"]="$target_home/.mame"
     ["${DOTDOT}/darkplaces"]="$target_home/.darkplaces"
     ["${DOTDOT}/neofetch"]="$target_config/neofetch"
+    ["${DOTDOT}/kde/kdeglobals"]="$target_config/kdeglobals"
+    ["${DOTDOT}/kde/kglobalshortcutsrc"]="$target_config/kglobalshortcutsrc"
+    ["${DOTDOT}/kde/kwinoutputconfig.json"]="$target_config/kwinoutputconfig.json"
+    ["${DOTDOT}/kde/kwinrc"]="$target_config/kwinrc"
+    ["${DOTDOT}/kde/kwinrulesrc"]="$target_config/kwinrulesrc"
+    ["${DOTDOT}/kde/plasma-org.kde.plasma.desktop-appletsrc"]="$target_config/plasma-org.kde.plasma.desktop-appletsrc"
+    ["${DOTDOT}/RaySession"]="$target_config/RaySession"
   )
 
   for source_file in "${!files_to_link[@]}"; do
@@ -267,7 +265,7 @@ link_dotfiles() {
 
 install_recipes() {
   local recipe_dir
-  recipe_dir="${DOTFILES}/z_setup_scripts"
+  recipe_dir="${DOTDIR}/z_setup_scripts"
 
   local recipes=(
     "$recipe_dir/install_oh-my-zsh.sh"
@@ -297,37 +295,33 @@ install_recipes() {
 install_flatpak_packages() {
   flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-  if [[ -d $HOME/.var/app/com.valvesoftware.Steam ]]; then
-    print_info "Steam is already installed ..."
-  else
-    print_info "Installing Steam ..."
-    flatpak install -y flathub com.valvesoftware.Steam
-    mkdir -p "$HOME/.var/app/com.valvesoftware.Steam"
-  fi
+  local flatpak_packages=(
+    com.valvesoftware.Steam
+    net.davidotek.pupgui2
+    com.github.Matoking.protontricks
+    com.slack.Slack
+    com.obsproject.Studio
+    org.gimp.GIMP
+    org.kde.kdenlive
+  )
 
-  if [[ -d $HOME/.var/app/net.davidotek.pupgui2 ]]; then
-    print_info "ProtonUp-Qt is already installed ..."
-  else
-    print_info "Installing ProtonUp-Qt ..."
-    flatpak install -y flathub net.davidotek.pupgui2
-    mkdir -p "$HOME/.var/app/net.davidotek.pupgui2"
-  fi
+  print_info "Installing Flatpak packages ..."
 
-  if [[ -d $HOME/.var/app/com.github.Matoking.protontricks ]]; then
-    print_info "ProtonTricks is already installed ..."
-  else
-    print_info "Installing ProtonTricks ..."
-    flatpak install -y flathub com.github.Matoking.protontricks
-    mkdir -p "$HOME/.var/app/com.github.Matoking.protontricks"
-  fi
+  for package in "${flatpak_packages[@]}"; do
+    if flatpak list --app | grep -q "$package"; then
+      print_info "$package is already installed ..."
+    else
+      print_info "Installing $package ..."
+      # flatpak install -y flathub "$package"
+      # mkdir -p "$HOME/.var/app/$package"
+    fi
+  done
+  print_success "Flatpak packages installation complete."
+}
 
-  if [[ -d $HOME/.var/app/com.slack.Slack ]]; then
-    print_info "Slack is already installed ..."
-  else
-    print_info "Installing Slack ..."
-    flatpak install -y flathub com.slack.Slack
-    mkdir -p "$HOME/.var/app/com.slack.Slack"
-  fi
+audio_limits_and_prio() {
+  sudo cp $DOTDOT/etc/limits.conf /etc/security/limits.conf
+  sudo cp $DOTDOT/etc/login /etc/pam.d/login
 }
 
 update_plocate_db() {
@@ -349,7 +343,23 @@ install_flatpak_packages
 enable_pacman_autocomplete
 link_dotfiles
 
+audio_limits_and_prio
 update_fonts_cache
 update_plocate_db
+
+sudo usermod -aG docker $(whoami)
 systemctl --user import-environment PATH
-hyprctl reload
+
+# sudo pacman -S v4l2loopback-dkms v4l2loopback-utils
+
+# version 0.13.2-1 for both still works
+# sudo downgrade v4l2loopback-dkms
+# sudo downgrade v4l2loopback-utils
+# sudo rmmod -f v4l2loopback
+# sudo modprobe v4l2loopback
+
+# or
+
+# sudo pacman -Rns v4l2loopback-dkms
+# wget https://archive.archlinux.org/packages/v/v4l2loopback-dkms/v4l2loopback-dkms-0.13.2-1-any.pkg.tar.zst
+# sudo pacman -U v4l2loopback-dkms-0.13.2-1-any.pkg.tar.zst
