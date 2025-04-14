@@ -238,3 +238,18 @@ Mon Apr 14 15:47:39 2025: Telling Ardour to save
 Mon Apr 14 15:47:40 2025: Session LIVE saved.
 Mon Apr 14 15:47:40 2025: Done
 Mon Apr 14 15:47:40 2025: Bye Bye...
+Mon Apr 14 21:15:03 2025: Attempting to open /home/marcogomez/Ray Sessions/LIVE
+Mon Apr 14 21:15:03 2025: Commanding smart clients to switch
+Mon Apr 14 21:15:03 2025: Process has pid: 339455
+Mon Apr 14 21:15:03 2025: The client "JACK Connections" at "osc.udp://10.0.0.10:12589/" informs us it's ready to receive commands.
+Mon Apr 14 21:15:04 2025: Process has pid: 339462
+Mon Apr 14 21:15:04 2025: The client "Ardour" at "osc.udp://10.0.0.10:11087/" informs us it's ready to receive commands.
+Mon Apr 14 21:15:05 2025: Telling all clients that session is loaded...
+Mon Apr 14 21:15:05 2025: Telling client JACK Connections that session is loaded.
+Mon Apr 14 21:15:05 2025: Telling client Ardour that session is loaded.
+Mon Apr 14 21:15:05 2025: Loaded
+Mon Apr 14 21:15:05 2025: Done
+Mon Apr 14 22:17:15 2025: Telling JACK Connections to save
+Mon Apr 14 22:17:15 2025: Telling Ardour to save
+Mon Apr 14 22:17:16 2025: Session LIVE saved.
+Mon Apr 14 22:17:16 2025: Done.
