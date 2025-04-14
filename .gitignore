@@ -8,3 +8,4 @@ forecast.json
 weather.json
 weather*.png
 ch-zrh-wg-003.conf
+gcloud_cli/
